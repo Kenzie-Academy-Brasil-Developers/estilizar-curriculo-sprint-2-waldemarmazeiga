@@ -1,19 +1,132 @@
+
+/*===========NORMALIZE=================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;  
+    vertical-align: baseline; 
+ }
+
+ /*=======================BODY=================*/
+
+ body{
+
+	height: 100vh;
+	width: 100vw;
+	font-family: Arial, Helvetica, sans-serif;
+	
+ }
+
+ /*========================STYLES=================*/
+
+h1, h2 {
+
+	color: #444;
+
+}
+
+h2 {
+
+font-size: 20px;
+
+}
+
+#mainArea h1, h2 {
+
+	font-size: 20px;
+}
+
+#mainArea h1 {
+	font-style: italic;
+}
+
+
+
+.topics {
+	color: #cf8a05;
+}
+
+#contactDetails {
+	
+	color: #181818;
+	text-decoration: none;
+
+}
+
+.mainDetails {
+	
+	border-bottom: 2px solid #cf8a05;
+
+}
+
+img {
+
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+
+
+}
+
+ul {
+
+	list-style: none;
+	
+
+}
+
+#name h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#name h2 {
+
+	font-size: 25px;
+
+}
+
+.divisionTopics {
+
+	border-top: 1px solid #dedede;
+	
+}
+
+
+
+a {
+	color: inherit;
+}
+
+
+
+/*=====================POSITION==================*/
+
 .clear {
 	clear: both;
 }
 
 #headshot {
 	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 50px;
 }
 
 #name {
 	float: left;
+	margin-right: 500px;
 }
 
 #contactDetails {
-	float: right;
+	
+    float: right;
+    margin-right: 50px;
+    margin-left: 8px;
+    margin-bottom: 33px;
 }
 
 .sectionTitle {
@@ -25,3 +138,40 @@
 	float: right;
 	width: 72.5%;
 }
+
+.mainDetails {
+	
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cv {
+	
+	margin: 10%;
+	
+}
+
+#mainArea {
+	margin: 0px 35px 35px 35px;
+}
+
+section {
+
+	padding: 20px;
+}
+
+ .topic1 article {
+
+	margin-bottom: 15px;
+ }
+
+ .keys {
+
+	display: block;
+    column-count: 3;
+	
+ }
